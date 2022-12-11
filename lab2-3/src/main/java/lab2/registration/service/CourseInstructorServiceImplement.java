@@ -83,6 +83,8 @@ public class CourseInstructorServiceImplement implements CourseInstructorService
         return Arrays.stream(instructors)
                 .filter(i -> Arrays.stream(i.getCanTeach()).anyMatch(c -> c == courseId) && i.getId() != instructorId)
                 .toArray(Instructor[]::new);
+
+        //
     }
 
 }

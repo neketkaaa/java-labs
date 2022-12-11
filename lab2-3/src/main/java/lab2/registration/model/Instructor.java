@@ -19,5 +19,7 @@ public class Instructor extends Person {
     public void setCanTeach(long[] canTeach) {
         this.canTeach = canTeach;
     }
+
+    //
     
 }

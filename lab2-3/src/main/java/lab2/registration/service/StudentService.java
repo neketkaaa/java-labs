@@ -36,5 +36,7 @@ public interface StudentService {
      * @return список всех курсов, на которые записан студент
      */
     CourseInstance[] findAllSubscriptionsByStudentId(long studentId);
+
+    //
     
 }

@@ -19,4 +19,6 @@ public class Student extends Person {
     public void setCompletedCourses(long[] completedCourses) {
         this.completedCourses = completedCourses;
     }
+
+    //
 }

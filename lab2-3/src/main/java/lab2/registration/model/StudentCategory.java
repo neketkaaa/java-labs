@@ -6,4 +6,6 @@ package lab2.registration.model;
 public enum StudentCategory {
     BACHELOR,
     MASTER
+
+    //
 }

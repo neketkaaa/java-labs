@@ -27,4 +27,5 @@ public interface CourseInstructorService {
      */
     Instructor[] findReplacement(long instructorId, long courseId);
 
+    //
 }
